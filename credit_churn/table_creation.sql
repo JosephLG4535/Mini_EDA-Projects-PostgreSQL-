@@ -1,0 +1,27 @@
+-- table creation
+CREATE TABLE IF NOT EXISTS credit_cust(
+	client_no BIGINT NOT NULL,
+	attrition TEXT,
+	age INT,
+	gender VARCHAR(10),
+	dependent_no INT,
+	edu_level TEXT,
+	marital_status VARCHAR(20),
+	income_type TEXT,
+	card_type VARCHAR(10),
+	months_on_book INT,
+	no_of_service INT,
+	no_12months_inactive INT,
+	no_12contacts INT,
+	credit_limit TEXT,
+	revol_balance BIGINT,
+	avg_open_buy TEXT,
+	total_amt_chng_q4q1 NUMERIC (10,2),
+	total_trans_amt BIGINT,
+	total_trans_no INT,
+	total_no_chng_q4q1 NUMERIC (10,2),
+	avg_utilize NUMERIC (10,2),
+	drop1 TEXT,
+	drop2 TEXT,
+	PRIMARY KEY (client_no)
+);
