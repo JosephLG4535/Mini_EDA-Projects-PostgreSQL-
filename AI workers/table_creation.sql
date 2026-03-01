@@ -1,0 +1,25 @@
+-- create table
+CREATE TABLE IF NOT EXISTS ai_workers(
+	employee_id TEXT,
+	job_role TEXT,
+	years_exp INT,
+	education_level TEXT,
+	country TEXT,
+	industry TEXT,
+	company_size TEXT,
+	work_type TEXT,
+	team_size INT,
+	salary_in_K INT,
+	ai_tool TEXT,
+	ai_tools_day INT,
+	ai_assist_hrs NUMERIC(10,2),
+	ai_pct_replace INT,
+	adopt_stage TEXT,
+	ai_upskill_weekly_hrs NUMERIC(10,2),
+	productivity_score INT,
+	burnout_rate INT,
+	satisfaction_score NUMERIC(10,2),
+	ai_replacement_fear TEXT,
+	attrition_risk TEXT,
+	PRIMARY KEY (employee_id)
+);
